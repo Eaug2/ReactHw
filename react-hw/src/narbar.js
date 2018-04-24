@@ -3,7 +3,7 @@ import React from "react";
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
-const Navbar = () => (
+const Navbar = props => (
     <div className="container">
     <nav className="navbar navbar-expand-lg">
   <a className="navbar-brand" href="#">Clicky Game</a>
@@ -14,7 +14,7 @@ const Navbar = () => (
     </span>
 
     <span className="navbar-text">
-      Score:0 | Top Score: 0
+      Score:{props.score} | Top Score: 0
     </span>
   
 </nav>
