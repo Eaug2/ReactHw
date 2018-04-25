@@ -1,0 +1,7 @@
+.jumbotron{
+    background-image: url("./MarioBackGround.jpg");
+    width:100%;
+}
+p, h1{
+    text-align: left;
+}

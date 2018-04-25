@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "clicked": false,
+      "image":
+        "../images//bigyellowmush.jpg"
+    },
+    {
+      "id": 2,
+      "clicked": false,
+      "image":
+        "../images/bluemush.jpg"
+    },
+    {
+      "id": 3,
+      "clicked": false,
+      "image":
+        "../images/chainchomp.jpg"    
+    },
+    {
+        "id": 4,
+        "clicked": false,
+        "image":
+          "../images/ogmush.jpg"
+      },
+      {
+        "id": 5,
+        "clicked": false,
+        "image":
+          "../images/ogpixelmush.jpg"
+      },
+      {
+        "id": 6,
+        "clicked": false,
+        "image":
+          "../images/pixelmush.jpg"
+      },
+      {
+        "id": 7,
+        "clicked": false,
+        "image":
+          "../images/pixelstar.png"
+      },
+      {
+        "id": 8,
+        "clicked": false,
+        "image":
+          "../images/plupstar.jpg"
+      },
+      {
+        "id": 9,
+        "clicked": false,
+        "image":
+          "../images/popstar.jpg"  
+      },
+      {
+        "id": 10,
+        "clicked": false,
+        "image":
+          "../images/shinymush.jpg"
+      },
+      {
+        "id": 11,
+        "clicked": false,
+        "image":
+          "../images/redmush.jpg"
+      },
+      {
+        "id": 12,
+        "clicked": false,
+        "image":
+          "../images/silvermush.jpg"
+      }
+  ]
