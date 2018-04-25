@@ -45,7 +45,7 @@ class Score extends React.Component {
 
             //setting up the highScore
             if (this.state.score > this.state.highScore){
-                this.setState({ highScore: this.state.score });
+                this.setState({ highScore: this.state.score});
             }
             //randomly sorts the icons from the .json then sets them
             icons.sort(function (a, b) { return 0.5 - Math.random() });
@@ -74,7 +74,7 @@ class Score extends React.Component {
                 score={this.state.score}
                 highScore = {this.state.highScore}
                 />
-                {this.state.icons.map(icon => (
+                {icons.map(icon => (
                     <Section
                         setUp={this.setUp}
                         id={icon.id}
